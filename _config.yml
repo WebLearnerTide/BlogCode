@@ -69,7 +69,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@tide:WebLearnerTide/weblearnertide.github.io.git
+  #repo: https://giyhub.com/WebLearnerTide/weblearnertide.github.io.git
+  repo: https://git.coding.net/ctide/cite.git
   branch: master
 
 index_generator:
