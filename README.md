@@ -4,6 +4,7 @@
 
 	>npm install -g hexo-cli
 3. 克隆本项目
+
 	>git clone https://github.com/weblearnertide/BlogCode.git
 4. 进入项目目录执行`npm install`
 5. 输入`hexo server --prot 3600 --debug`，在浏览器打开`http://localhost:3600`检查是否成功（Windows 10不知道什么原因不能使用默认的4000端口）
