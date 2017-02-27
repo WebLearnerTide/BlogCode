@@ -8,6 +8,8 @@
     {{ __('title.category') + page_title_suffix }}
   {% elif page.type === "tags" and not page.title  %}
     {{ __('title.tag') + page_title_suffix }}
+  {% elif page.type === "msgs" and not page.title  %}
+    {{ '留言' + page_title_suffix }}
   {% else %}
     {{ page.title + page_title_suffix }}
   {% endif %}
